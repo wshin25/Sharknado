@@ -38,20 +38,10 @@ S: shark
 
 Game display:
 size of the grid: 20
- - ex)
----Fish---
-Tuna status: T with ID 1 at location (15, 15) is floating. Has a size of: 10 and energy of: 15
-Tuna status: T with ID 2 at location (6, 2) is hidden in Cave 2
-Tuna status: T with ID 3 at location (6, 2) is hidden in Cave 2
-Shark status: S with ID 4 at location (10, 11) is floating. Has a size of: 20 and energy of: 15
-Shark status: S with ID 5 at location (10, 11) is floating. Has a size of: 20 and energy of: 15
----Cave---
-Cave Status: c with ID 1 at location (5, 1) has a space of 100
-Cave Status: c with ID 2 at location (6, 2) has a space of 80
----Reef---
-CoralReef Status: R with ID 1 at location (1, 20) containing food 100
-CoralReef Status: R with ID 2 at location (20, 1) containing food 100
-CoralReef Status: R with ID 3 at location (20, 20) containing food 100
+
+Object display: "<TYPE><ID>"
+  - ex) R1: coralreef with ID of 1
+
 Time: 5
 20R1. . . . . . . . . R3
   . . . . . . . . . . . 
@@ -65,6 +55,3 @@ Time: 5
   . . . * . . . . . . . 
 0 . . c1. . . . . . . R2
   0   4   8   12  16  20
-
-object display: "<TYPE><ID>"
-  - ex) R1: coralreef with ID of 1
