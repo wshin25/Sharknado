@@ -9,6 +9,28 @@ a cave.
 
 ## Getting Started
 
+### Installation
+
+Download all the files onto a folder, cd into the folder and type the command below in the terminal:
+```
+g++ -o program PA4.cpp Model.cpp View.cpp CartPoint.cpp CartVector.cpp Cave.cpp CoralReef.cpp Fish.cpp GameCommand.cpp GameObject.cpp Sharknado.cpp Shark.cpp Tuna.cpp
+```
+
+For separate compilation and linking, use the '-c' option in g++ to compile individual source files and link everything at the end:
+```
+g++ -c PA4.cpp
+g++ -c Model.cpp
+// ... repeat this for all files
+g++ -o program PA4.o Model.o //... list all files here
+```
+
+The executable takes no arguments to run:
+```
+./program
+```
+
+### How to Play
+
 Players can enter game commands through the command line interface to create game
 objects and instruct fish to perform actions.
 Entering a new command increments the clock by one tick.
@@ -96,3 +118,6 @@ Time: 5
 0 . . C1. . . . . . . R2
   0   4   8   12  16  20
 ```
+
+### Rules
+Coming soon! (Easy to figure out afer a few games)
